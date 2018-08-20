@@ -4,12 +4,12 @@ interface IProps {
     framework: string,
     bundler: string
 }
-export class Hello extends React.Component<IProps, {}> {
+export class Test extends React.Component<IProps, {}> {
     render() {
-        console.log("passing");
+        console.log("passing test");
         
         return <div>
-            <h1>This is a... {this.props.framework} application using    {this.props.compiler} with {this.props.bundler}</h1>
+            <h1>BLABLBALBA</h1>
             <div>
                 {this.props.children}
             </div>
